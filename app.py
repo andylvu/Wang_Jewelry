@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
-
+#asdf
 # Load environment variables
 db_username = os.environ.get('DB_USERNAME')
 db_password = os.environ.get('DB_PASSWORD')
